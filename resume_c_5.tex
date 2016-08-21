@@ -1,0 +1,92 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\setlength{\textwidth}{5in} % set width of text portion
+% \vspace*{-6mm}
+
+\begin{document}
+\vspace*{-2.0cm}
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Kuldeep Singh}
+ \moveleft.5\hoffset\centerline{\url{https://www.linkedin.com/in/kuldeepsinghgrewal}}
+  \moveleft.5\hoffset\centerline{\url{https://github.com/kiok46}}
+
+
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+% \moveleft.5\hoffset\centerline{The LNM Institute of Information Technology}
+% \moveleft.5\hoffset\centerline{Sumel, Via-Jamdoli, Jaipur 302031. India}
+ \moveleft.5\hoffset\centerline{kuldeepbb.grewal@gmail.com}
+ \moveleft.5\hoffset\centerline{+91-7727935906}
+%
+
+\begin{resume}
+
+\section{EDUCATION}
+
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+\textbf{Degree} & \textbf{Year} & {Institution/Board} \\
+\hline
+B.Tech (CSE) & 2013-2017* & The LNM Institute of Information Technology, Jaipur \\
+\hline
+XII & 2013 & Model School Rohtak, Haryana (CBSE) \\
+\hline
+X & 2011 & Model School Rohtak, Haryana (CBSE) \\
+\hline
+\end{tabular}
+* Expected year of completion
+
+\section{WORK EXPERIENCE}
+\textbf{Google Summer Of Code - Plyer}   \href{https://github.com/kiok46/plyer}{Github} \hfill Summer `16 \\
+Worked on designing a platform independent python wrapper for platform dependent APIs.
+
+\textbf{Defence Research and Development Organization} \hfill Summer `15 \\
+Designed an application to study the debris and physical effects on the surroundings caused by an explosion.
+
+\textbf{The LNMIIT, Jaipur} \hfill Winter `15 \\
+Designed an application to study the debris and physical effects on the surroundings caused by an explosion.
+
+\section{PROJECTS}
+
+     \textbf{Projects including college and community projects are on \href{https://github.com/kiok46}{Github} account}
+
+\section{OPEN \\SOURCE \\PROJECTS}
+
+    {\textbf{Plyer} \href{https://github.com/kivy/plyer}{ Github}\hfill 2016 - Present \\
+    Plyer is a platform-independent Python wrapper for platform-dependent APIs.
+
+    {\textbf{Kivy-Designer} \href{https://github.com/kivy/kivy-designer}{ Github}\hfill 2015 - Present \\
+    Kivy Designer is Kivy's tool for designing graphical user interfaces (GUIs) from Kivy Widgets. You can compose and customize widgets, and test them.\
+      
+\section{TECHNICAL \\ SKILLS} {\textbf{Languages}:} Python, Java\\
+    {\textbf{Frameworks}:} Kivy, flask, Pygame\\
+    {\textbf{Platforms}:} Windows, Android, iOS, Linux, MacOSX
+
+\section{POSITIONS OF\\ RESPONSIBIL-\\ITY}
+    \href{http://fosslnmiit.github.io}{FOSS-LNMIIT} Lead \hfill May `16 - Current \\
+    \href{https://summerofcode.withgoogle.com/projects/#4904227189030912}{Google Summer of Code} Mentor 2016 for KDE \hfill March `16 - Current\\
+    Organizer of \href{http://conf.kde.in}{conf.kde.in }2016 \hfill March `16 \\
+    \href{https://developers.google.com/open-source/gci/}{Google Code-In Mentor 2015 for KDE} \hfill Dec `15 - Jan `16\\
+    \href{https://season.kde.org/?q=view_projects&prg=36&p=491}{Season of KDE Mentor} for GCompris, KDE \hfill Nov `15 - Jan `16\\
+    \href{https://medium.com/@mozlnmiit}{Club Lead} of Mozilla LNMIIT \hfill Apr `15 - Feb `16\\
+    
+
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+  \end{footnotesize}
+\end{center}
+}
+}
+\end{resume}
+\end{document}
